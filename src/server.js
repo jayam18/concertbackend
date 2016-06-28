@@ -31,5 +31,6 @@ app.listen(port, () => {
 });
 
 app.use('/', require('./controllers/home'));
+app.use('/venue', require('./controllers/venue'));
 
 module.exports = app;
